@@ -93,11 +93,11 @@ docker-compose-postgres.yaml
     Elasticsearch
     UI
     Postgres persistence
-
+```
 docker-compose-prometheus.yaml Brings up Prometheus server
-
+```
 For example this will start the server instance backed by a PostgreSQL DB.
-
+```
 docker-compose -f docker-compose.yaml -f docker-compose-postgres.yaml up
 
-
+```
